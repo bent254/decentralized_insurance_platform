@@ -1,0 +1,23 @@
+{
+  "canisters": {
+    "decentralized_insurance_platform": {
+      "type": "custom",
+      "main": "src/index.ts",
+      "candid": "src/index.did",
+      "candid_gen": "http",
+      "build": "npx azle decentralized_insurance_platform",
+      "wasm": ".azle/decentralized_insurance_platform/decentralized_insurance_platform.wasm",
+      "gzip": true,
+      "metadata": [
+        {
+          "name": "candid:service",
+          "path": "src/index.did"
+        },
+        {
+          "name": "cdk:name",
+          "content": "azle"
+        }
+      ]
+    }
+  }
+}
