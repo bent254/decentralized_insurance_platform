@@ -54,11 +54,3 @@ To run the Decentralized Insurance Platform locally, follow these steps:
 2. `GET /claims`: Get all insurance claims.
 3. `GET /claims/:id`: Get details of a specific claim by ID.
 4. `PUT /claims/:id/status`: Update the status of a specific claim.
-
-## Contributing
-
-Contributions to the Decentralized Insurance Platform project are welcome! Feel free to fork the repository, make improvements, and submit pull requests. For major changes, please open an issue first to discuss the proposed changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
